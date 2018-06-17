@@ -1,0 +1,30 @@
+{{ extend menu }} // расширяем шаблон menu
+{{ block body }}
+<?
+foreach ($params as $v => $k) {
+    if ($v = 1) {
+        $v = 2;
+    }
+}
+?>
+
+
+<? foreach ($params as $v => $k) {
+}; ?>
+
+<?
+foreach ($params as $v => $k) {
+}; ?>
+
+<? foreach ($params as $v => $k) {
+};
+?>
+
+тут надо чего-то написать наверное
+
+проверка get = {$this->key('f1','qwer')}
+{{ block headScript}}
+
+{{ endblock headScript }}
+
+{{ endblock body }}
